@@ -1,7 +1,7 @@
 project('gtk-android', ['c', 'java'],
   version : '0.0.1')
 
-subproject('glib', default_options: ['libmount=false', 'selinux=false', 'iconv=libc'])
+subproject('glib', default_options: ['libmount=disabled', 'selinux=disabled', 'iconv=libc'])
 subproject('harfbuzz')
 subproject('libpng')
 subproject('freetype2')
