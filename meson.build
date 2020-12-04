@@ -2,9 +2,9 @@ project('gtk-android', ['c', 'java'],
   version : '0.0.1')
 
 subproject('glib', default_options: ['libmount=disabled', 'selinux=disabled', 'iconv=libc'])
-
+#subproject('harfbuzz')
 subproject('libpng')
-
+#subproject('freetype2')
 subproject('expat')
 subproject('linux-util')
 subproject('fontconfig')
