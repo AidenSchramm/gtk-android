@@ -16,6 +16,6 @@ subproject('pango', default_options: ['gir=false'])
 subproject('gdk-pixbuf', default_options: ['x11=false', 'gir=false', 'docs=false'])
 subproject('atk', default_options: ['introspection=false'])
 subproject('libepoxy', default_options: ['glx=no', 'x11=false'])
-subproject('gtk', default_options: ['wayland-backend=false', 'x11-backend=true', 'print-backends=none', 'media=none', 'introspection=disabled'])
+subproject('gtk', default_options: ['wayland-backend=disabled', 'x11-backend=true', 'print-backends=none', 'media=none', 'introspection=disabled'])
 
 subdir('samples')
